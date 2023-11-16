@@ -16,8 +16,19 @@ ul {
     list-style: none;
 }
 
+.headerTitleCard{
+    padding: 1rem 0.2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0.5rem;
+   text-align: center;
+
+}
+
+.inputContentContainer{width: 100%;}
 
 .cardContainer{
+    
     display: flex;
     flex-wrap: wrap;
     flex: 1;

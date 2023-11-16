@@ -32,6 +32,10 @@
 
 
 }
+.inputContentContainer{
+    padding: 1rem;
+}
+
 
 
 .inputContainer:hover{
