@@ -5,14 +5,32 @@ import Counter from "./assets/components/Counter";
 import Input from "./assets/components/input";
 import Card from "./assets/components/Product/Card";
 import PDetail from "./assets/components/Product/Pdetail";
+import { useFetch } from "./assets/components/hooks/useFetch";
+import { API_URL } from "./assets/components/constants/APIURL";
+import Loader from "./assets/components/Loader";
 
 function App() {
   // const [counter, setCounter] = useState(0);
-  const [task, setTask] = useState("");
+  const [search, setSearch] = useState("");
   const [active, setActive] = useState(false);
-  const [products, setProducts] = useState([]);
   const [showDetails, setShowDetails] = useState(false);
   const [productDetail, setProductDetail] = useState(null);
+  const [productsFiltered, setProductsFiltered] = useState([]);
+
+
+  const { data: products, loading, error } = useFetch(API_URL.PRODUCTS.URL, API_URL.PRODUCTS.config);
+ 
+ 
+ 
+  const filterBySearch = (query) =>{
+    let updateProductList = [...products];
+
+    updateProductList = updateProductList.filter((item) =>{
+      return item.title.toLowerCase().indexOf(query.toLowerCase()) !== -1;
+    })
+setProductsFiltered(updateProductList);
+
+  }
 
   // const isValidCounter = counter > 0;
 
@@ -28,7 +46,8 @@ function App() {
 
   const onChange = (event) => {
     const value = event.target.value;
-    setTask(value);
+    setSearch(value);
+    filterBySearch(value);
   };
 
   const onBlur = () => {
@@ -39,27 +58,6 @@ function App() {
   };
   const inputClass = `inputContainer ${active ? "active" : ""}`;
 
-  useEffect(() => {
-    const getProducts = async () => {
-      try {
-        const response = await fetch(
-          "https://64addf9cb470006a5ec67639.mockapi.io/products",
-          {
-            method: "GET",
-            headers: {
-              "Content-Type": "application.json",
-            },
-          }
-        );
-        const data = await response.json();
-
-        setProducts(data);
-      } catch (error) {
-        console.error(error);
-      }
-    };
-    getProducts();
-  }, []);
 
 const onShowDetails = (id) =>{
   setShowDetails(true);
@@ -75,7 +73,7 @@ const onShowDetails = (id) =>{
       {showDetails ? (
         <>
         <div className="headerDetailContainer">
-        <button className="backButton" onClick={() => setProductDetail(false)} >back</button>
+        <button className="backButton" onClick={() => setShowDetails(false)} >back</button>
         <h2 className="headerTitleCard">Product Detail</h2>
         </div>
         <PDetail {...productDetail} />
@@ -97,9 +95,21 @@ const onShowDetails = (id) =>{
           </div>
           <h2 className="headerTitleCard">Products</h2>
           <div className="cardContainer">
-            {products.map((product) => (
-              <Card {...product} onShowDetails={onShowDetails} />
-            ))}
+            {loading && <Loader/>}
+            {error && <h1>Something went wrong</h1>}
+            {search.length > 0 && productsFiltered.length === 0 && <h1>Product not found.</h1>}
+            {
+              search.length > 0 ? (
+                productsFiltered.map((product) =>(
+                <Card key={product.id} {...product} onShowDetails={onShowDetails} />
+              )) 
+              ): (
+            products.map((product) => (
+              <Card key={product.id} {...product} onShowDetails={onShowDetails} />
+            ))
+            )}
+
+
           </div>
         </>
       )}

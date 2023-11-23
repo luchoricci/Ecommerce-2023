@@ -12,15 +12,7 @@ const Card = ({
   onShowDetails,
 }) => {
   return (
-    <div className="card" key={id} onClick={() => onShowDetails(id)}>
-    
-
-    <div >
-
-    </div>
-
-
-
+    <div className="card" onClick={() => onShowDetails(id)}>
      <img className="cardImage" src={image} alt={title} />
       <div className="cardContent">
         <h3 className="cardTitle">{title}</h3>

@@ -1,5 +1,5 @@
-<!-- https://64addf9cb470006a5ec67639.mockapi.io/products -->
 
+<!-- https://64addf9cb470006a5ec67639.mockapi.io/products
 [
 {
 
@@ -23,10 +23,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/1/1.jpg",
+          "https://i.dummyjson.com/data/products/1/1.jpg"
 
+         
+
+        ]
 
       },
 
@@ -52,10 +55,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/2/1.jpg",
+          "https://i.dummyjson.com/data/products/2/1.jpg"
 
+        
+
+        ]
 
       },
 
@@ -81,11 +87,11 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
 
-        "image":
+        "image": [
 
           "https://i.dummyjson.com/data/products/3/1.jpg"
 
-
+        ]
 
       },
 
@@ -111,11 +117,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/4/1.jpg",
+          "https://i.dummyjson.com/data/products/4/1.jpg"
+         
 
-
+        ]
 
       },
 
@@ -141,13 +148,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/5/1.jpg",
+          "https://i.dummyjson.com/data/products/5/1.jpg"
 
+        
 
-
-
+        ]
 
       },
 
@@ -173,12 +180,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/6/1.png",
+          "https://i.dummyjson.com/data/products/6/1.png"
 
+   
 
-
+        ]
 
       },
 
@@ -204,12 +212,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/7/1.jpg",
+          "https://i.dummyjson.com/data/products/7/1.jpg"
 
+       
 
-
+        ]
 
       },
 
@@ -235,12 +244,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/8/1.jpg",
+          "https://i.dummyjson.com/data/products/8/1.jpg"
 
+        
 
-
+        ]
 
       },
 
@@ -266,11 +276,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/9/1.jpg",
+          "https://i.dummyjson.com/data/products/9/1.jpg"
 
+         
 
+        ]
 
       },
 
@@ -296,10 +308,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/10/1.jpg",
+          "https://i.dummyjson.com/data/products/10/1.jpg"
 
+
+        ]
 
       },
 
@@ -325,11 +339,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/11/1.jpg",
+          "https://i.dummyjson.com/data/products/11/1.jpg"
 
+         
 
+        ]
 
       },
 
@@ -355,13 +371,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/12/1.jpg",
+          "https://i.dummyjson.com/data/products/12/1.jpg"
 
+       
 
-
-
+        ]
 
       },
 
@@ -387,13 +403,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/13/1.jpg",
+          "https://i.dummyjson.com/data/products/13/1.jpg"
 
+        
 
-
-
+        ]
 
       },
 
@@ -419,11 +435,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/14/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/14/1.jpg",
+          "https://i.dummyjson.com/data/products/14/1.jpg"
 
+        
 
+        ]
 
       },
 
@@ -449,10 +467,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/15/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/15/1.jpg",
+          "https://i.dummyjson.com/data/products/15/1.jpg"
 
+       
+
+        ]
 
       },
 
@@ -478,10 +499,11 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/16/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/16/1.png",
-
+          "https://i.dummyjson.com/data/products/16/1.png"
+          
+        ]
 
       },
 
@@ -507,11 +529,11 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/17/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/17/1.jpg",
+          "https://i.dummyjson.com/data/products/17/1.jpg"
 
-
+        ]
 
       },
 
@@ -537,12 +559,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/18/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/18/1.jpg",
+          "https://i.dummyjson.com/data/products/18/1.jpg"
 
 
-
+        ]
 
       },
 
@@ -568,11 +590,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/19/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/19/1.jpg",
+          "https://i.dummyjson.com/data/products/19/1.jpg"
 
+         
 
+        ]
 
       },
 
@@ -598,11 +622,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/20/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/20/1.jpg",
+          "https://i.dummyjson.com/data/products/20/1.jpg"
 
+        
 
+        ]
 
       },
 
@@ -628,10 +654,11 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/21/thumbnail.png",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/21/1.png",
+          "https://i.dummyjson.com/data/products/21/1.png"
 
+        ]
 
       },
 
@@ -657,11 +684,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/22/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/22/1.jpg",
+          "https://i.dummyjson.com/data/products/22/1.jpg"
 
 
+        ]
 
       },
 
@@ -687,12 +715,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/23/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/23/1.jpg",
+          "https://i.dummyjson.com/data/products/23/1.jpg"
 
+         
 
-
+        ]
 
       },
 
@@ -718,12 +747,11 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/24/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/24/1.jpg",
-
-
-
+          "https://i.dummyjson.com/data/products/24/1.jpg"
+        
+        ]
 
       },
 
@@ -749,12 +777,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/25/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/25/1.png",
+          "https://i.dummyjson.com/data/products/25/1.png"
 
+         
 
-
+        ]
 
       },
 
@@ -780,13 +809,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/26/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/26/1.jpg",
-
-
+          "https://i.dummyjson.com/data/products/26/1.jpg"
 
 
+        ]
 
       },
 
@@ -812,9 +840,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/27/thumbnail.webp",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/27/1.jpg",
+          "https://i.dummyjson.com/data/products/27/1.jpg"
+
+
+        ]
 
       },
 
@@ -840,12 +871,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/28/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/28/1.jpg",
+          "https://i.dummyjson.com/data/products/28/1.jpg"
 
+   
 
-
+        ]
 
       },
 
@@ -871,12 +903,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/29/thumbnail.webp",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/29/1.jpg",
+          "https://i.dummyjson.com/data/products/29/1.jpg"
 
+         
 
-
+        ]
 
       },
 
@@ -902,13 +935,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/30/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/30/1.jpg",
+          "https://i.dummyjson.com/data/products/30/1.jpg"
 
+       
 
-
-
+        ]
 
       },
 
@@ -934,10 +967,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/31/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/31/1.jpg",
+          "https://i.dummyjson.com/data/products/31/1.jpg"
 
+         
+
+        ]
 
       },
 
@@ -963,11 +999,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/32/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/32/1.jpg",
+          "https://i.dummyjson.com/data/products/32/1.jpg"
 
-
+      
+        ]
 
       },
 
@@ -993,10 +1030,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/33/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/33/1.jpg",
+          "https://i.dummyjson.com/data/products/33/1.jpg"
 
+      
+
+        ]
 
       },
 
@@ -1022,11 +1062,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/34/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/34/1.jpg",
+          "https://i.dummyjson.com/data/products/34/1.jpg"
 
+          
 
+        ]
 
       },
 
@@ -1052,11 +1094,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/35/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/35/1.jpg",
+          "https://i.dummyjson.com/data/products/35/1.jpg"
 
 
+        ]
 
       },
 
@@ -1082,11 +1125,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/36/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/36/1.jpg",
+          "https://i.dummyjson.com/data/products/36/1.jpg"
 
+     
 
+        ]
 
       },
 
@@ -1112,10 +1157,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/37/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/37/1.jpg",
+          "https://i.dummyjson.com/data/products/37/1.jpg"
 
+
+        ]
 
       },
 
@@ -1141,11 +1188,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/38/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/38/1.png",
+          "https://i.dummyjson.com/data/products/38/1.png"
 
+    
 
+        ]
 
       },
 
@@ -1171,11 +1220,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/39/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/39/1.jpg",
+          "https://i.dummyjson.com/data/products/39/1.jpg"
 
+      
 
+        ]
 
       },
 
@@ -1201,13 +1252,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/40/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/40/1.jpg",
+          "https://i.dummyjson.com/data/products/40/1.jpg"
 
+   
 
-
-
+        ]
 
       },
 
@@ -1233,10 +1284,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/41/thumbnail.webp",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/41/1.jpg",
+          "https://i.dummyjson.com/data/products/41/1.jpg"
 
+    
+
+        ]
 
       },
 
@@ -1262,10 +1316,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/42/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/42/1.png",
+          "https://i.dummyjson.com/data/products/42/1.png"
 
+    
+
+        ]
 
       },
 
@@ -1291,11 +1348,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/43/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/43/1.jpg",
+          "https://i.dummyjson.com/data/products/43/1.jpg"
 
 
+        ]
 
       },
 
@@ -1321,11 +1379,11 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/44/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/44/1.jpg",
-
-
+          "https://i.dummyjson.com/data/products/44/1.jpg"
+         
+        ]
 
       },
 
@@ -1351,10 +1409,10 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/45/thumbnail.jpg",
 
-        "image":
-          "https://i.dummyjson.com/data/products/45/1.jpg",
+        "image": [
 
-
+          "https://i.dummyjson.com/data/products/45/1.jpg"
+        ]
 
       },
 
@@ -1380,11 +1438,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/46/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/46/1.webp",
+          "https://i.dummyjson.com/data/products/46/1.webp"
 
 
+        ]
 
       },
 
@@ -1410,11 +1469,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/47/thumbnail.jpeg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/47/1.jpg",
+          "https://i.dummyjson.com/data/products/47/1.jpg"
 
+    
 
+        ]
 
       },
 
@@ -1440,11 +1501,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/48/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/48/1.jpg",
+          "https://i.dummyjson.com/data/products/48/1.jpg"
 
+        
 
+        ]
 
       },
 
@@ -1470,11 +1533,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/49/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/49/1.jpg",
+          "https://i.dummyjson.com/data/products/49/1.jpg"
 
-
+     
+        ]
 
       },
 
@@ -1500,11 +1564,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/50/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/50/1.jpeg",
+          "https://i.dummyjson.com/data/products/50/1.jpeg"
 
+     
 
+        ]
 
       },
 
@@ -1530,11 +1596,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/51/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/51/1.png",
+          "https://i.dummyjson.com/data/products/51/1.png"
 
+        
 
+        ]
 
       },
 
@@ -1560,11 +1628,11 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/52/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/52/1.png",
+          "https://i.dummyjson.com/data/products/52/1.png"
 
-
+        ]
 
       },
 
@@ -1590,11 +1658,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/53/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/53/1.webp",
+          "https://i.dummyjson.com/data/products/53/1.webp"
 
+       
 
+        ]
 
       },
 
@@ -1620,10 +1690,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/54/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/54/1.jpg",
+          "https://i.dummyjson.com/data/products/54/1.jpg"
 
+
+        ]
 
       },
 
@@ -1649,10 +1721,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/55/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/55/1.jpg",
+          "https://i.dummyjson.com/data/products/55/1.jpg"
+          
 
+        ]
 
       },
 
@@ -1678,11 +1752,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/56/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/56/1.jpg",
+          "https://i.dummyjson.com/data/products/56/1.jpg"
 
 
+        ]
 
       },
 
@@ -1708,10 +1783,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/57/thumbnail.jpg",
 
-        "image":
-          "https://i.dummyjson.com/data/products/57/1.jpg",
+        "image": [
 
+          "https://i.dummyjson.com/data/products/57/1.jpg"
 
+       
+
+        ]
 
       },
 
@@ -1737,10 +1815,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/58/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/58/1.jpg",
+          "https://i.dummyjson.com/data/products/58/1.jpg"
 
+      
+
+        ]
 
       },
 
@@ -1766,11 +1847,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/59/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/59/1.jpg",
+          "https://i.dummyjson.com/data/products/59/1.jpg"
 
-
+          
+        ]
 
       },
 
@@ -1796,10 +1878,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/60/thumbnail.jpg",
 
-        "image":
-          "https://i.dummyjson.com/data/products/60/1.jpg",
+        "image": [
 
+          "https://i.dummyjson.com/data/products/60/1.jpg"
 
+     
+
+        ]
 
       },
 
@@ -1825,10 +1910,11 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/61/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/61/1.jpg",
+          "https://i.dummyjson.com/data/products/61/1.jpg"
 
+        ]
 
       },
 
@@ -1854,10 +1940,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/62/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/62/1.jpg",
+          "https://i.dummyjson.com/data/products/62/1.jpg"
 
+     
+
+        ]
 
       },
 
@@ -1882,11 +1971,13 @@
         "category": "mens-watches",
 
         "thumbnail": "https://i.dummyjson.com/data/products/63/thumbnail.webp",
-        "image":
 
-          "https://i.dummyjson.com/data/products/63/1.jpg",
+        "image": [
 
+          "https://i.dummyjson.com/data/products/63/1.jpg"
 
+    
+        ]
 
       },
 
@@ -1912,10 +2003,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/64/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/64/1.jpg",
+          "https://i.dummyjson.com/data/products/64/1.jpg"
 
+         
+
+        ]
 
       },
 
@@ -1941,10 +2035,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/65/thumbnail.webp",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/65/1.jpg",
+          "https://i.dummyjson.com/data/products/65/1.jpg"
 
+     
+
+        ]
 
       },
 
@@ -1970,11 +2067,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/66/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/66/1.jpg",
+          "https://i.dummyjson.com/data/products/66/1.jpg"
 
+       
 
+        ]
 
       },
 
@@ -2000,11 +2099,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/67/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/67/1.jpg",
+          "https://i.dummyjson.com/data/products/67/1.jpg"
 
 
+        ]
 
       },
 
@@ -2030,11 +2130,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/68/thumbnail.webp",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/68/1.jpg",
+          "https://i.dummyjson.com/data/products/68/1.jpg"
 
-
+    
+        ]
 
       },
 
@@ -2060,10 +2161,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/69/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/69/1.jpg",
+          "https://i.dummyjson.com/data/products/69/1.jpg"
 
+      
+
+        ]
 
       },
 
@@ -2089,11 +2193,11 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/70/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/70/1.jpg",
+          "https://i.dummyjson.com/data/products/70/1.jpg"
 
-
+        ]
 
       },
 
@@ -2119,11 +2223,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/71/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/71/1.jpg",
+          "https://i.dummyjson.com/data/products/71/1.jpg"
 
 
+        ]
 
       },
 
@@ -2149,11 +2254,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/72/thumbnail.webp",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/72/1.jpg",
+          "https://i.dummyjson.com/data/products/72/1.jpg"
 
+        
 
+        ]
 
       },
 
@@ -2179,10 +2286,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/73/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/73/1.jpg",
+          "https://i.dummyjson.com/data/products/73/1.jpg"
 
+         
+
+        ]
 
       },
 
@@ -2208,11 +2318,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/74/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/74/1.jpg",
+          "https://i.dummyjson.com/data/products/74/1.jpg"
 
 
+        ]
 
       },
 
@@ -2238,11 +2349,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/75/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/75/1.jpg",
+          "https://i.dummyjson.com/data/products/75/1.jpg"
 
+       
 
+        ]
 
       },
 
@@ -2268,10 +2381,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/76/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/76/1.jpg",
+          "https://i.dummyjson.com/data/products/76/1.jpg"
 
+          
+
+        ]
 
       },
 
@@ -2297,11 +2413,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/77/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/77/1.jpg",
+          "https://i.dummyjson.com/data/products/77/1.jpg"
 
+   
 
+        ]
 
       },
 
@@ -2327,11 +2445,11 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/78/thumbnail.jpg",
 
-        "image":
+        "image": [
 
           "https://i.dummyjson.com/data/products/78/thumbnail.jpg"
 
-
+        ]
 
       },
 
@@ -2357,11 +2475,11 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/79/thumbnail.jpg",
 
-        "image":
+        "image": [
 
           "https://i.dummyjson.com/data/products/79/1.jpg"
 
-
+        ]
 
       },
 
@@ -2387,11 +2505,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/80/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/80/1.jpg",
+          "https://i.dummyjson.com/data/products/80/1.jpg"
 
+          
 
+        ]
 
       },
 
@@ -2417,11 +2537,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/81/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/81/1.jpg",
+          "https://i.dummyjson.com/data/products/81/1.jpg"
 
+        
 
+        ]
 
       },
 
@@ -2447,11 +2569,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/82/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/82/1.jpg",
+          "https://i.dummyjson.com/data/products/82/1.jpg"
 
 
+        ]
 
       },
 
@@ -2477,11 +2600,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/83/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/83/1.jpg",
+          "https://i.dummyjson.com/data/products/83/1.jpg"
 
 
+        ]
 
       },
 
@@ -2507,11 +2631,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/84/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/84/1.jpg",
+          "https://i.dummyjson.com/data/products/84/1.jpg"
 
 
+        ]
 
       },
 
@@ -2537,10 +2662,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/85/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/85/1.jpg",
+          "https://i.dummyjson.com/data/products/85/1.jpg"
 
+
+        ]
 
       },
 
@@ -2566,11 +2693,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/86/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/86/1.jpg",
+          "https://i.dummyjson.com/data/products/86/1.jpg"
 
 
+        ]
 
       },
 
@@ -2596,10 +2724,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/87/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/87/1.jpg",
+          "https://i.dummyjson.com/data/products/87/1.jpg"
 
+      
+        ]
 
       },
 
@@ -2625,11 +2755,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/88/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/88/1.jpg",
+          "https://i.dummyjson.com/data/products/88/1.jpg"
 
+    
 
+        ]
 
       },
 
@@ -2655,11 +2787,14 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/89/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/89/1.jpg",
+          "https://i.dummyjson.com/data/products/89/1.jpg"
 
+    
+      
 
+        ]
 
       },
 
@@ -2685,11 +2820,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/90/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/90/1.jpg",
+          "https://i.dummyjson.com/data/products/90/1.jpg"
 
+ 
 
+        ]
 
       },
 
@@ -2715,11 +2852,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/91/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/91/1.jpg",
+          "https://i.dummyjson.com/data/products/91/1.jpg"
 
 
+        ]
 
       },
 
@@ -2745,10 +2883,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/92/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/92/1.jpg",
+          "https://i.dummyjson.com/data/products/92/1.jpg"
 
+
+        ]
 
       },
 
@@ -2774,11 +2914,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/93/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/93/1.jpg",
+          "https://i.dummyjson.com/data/products/93/1.jpg"
 
-
+        
+        ]
 
       },
 
@@ -2804,11 +2945,11 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/94/thumbnail.webp",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/94/1.webp",
-
-
+          "https://i.dummyjson.com/data/products/94/1.webp"
+        
+        ]
 
       },
 
@@ -2834,11 +2975,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/95/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/95/1.jpg",
+          "https://i.dummyjson.com/data/products/95/1.jpg"
 
+          
 
+        ]
 
       },
 
@@ -2864,11 +3007,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/96/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/96/1.jpg",
+          "https://i.dummyjson.com/data/products/96/1.jpg"
 
-
+       
+        ]
 
       },
 
@@ -2894,11 +3038,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/97/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/97/1.jpg",
+          "https://i.dummyjson.com/data/products/97/1.jpg"
 
+      
 
+        ]
 
       },
 
@@ -2924,11 +3070,12 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/98/thumbnail.jpg",
 
-        "image":
+        "image": [
 
-          "https://i.dummyjson.com/data/products/98/1.jpg",
+          "https://i.dummyjson.com/data/products/98/1.jpg"
 
 
+        ]
 
       },
 
@@ -2954,9 +3101,13 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/99/thumbnail.jpg",
 
-        "image": "https://i.dummyjson.com/data/products/99/1.jpg",
+        "image": [
 
+          "https://i.dummyjson.com/data/products/99/1.jpg"
 
+          
+
+        ]
 
       },
 
@@ -2982,10 +3133,14 @@
 
         "thumbnail": "https://i.dummyjson.com/data/products/100/thumbnail.jpg",
 
-        "image": "https://i.dummyjson.com/data/products/100/1.jpg",
+        "image": [
 
+          "https://i.dummyjson.com/data/products/100/1.jpg"
 
+       
+
+        ]
 
       }
 
-]
+] -->

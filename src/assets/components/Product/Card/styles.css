@@ -10,7 +10,7 @@
     max-width: 300px;
     min-width: 300px;
     max-height: 480px;
-    min-height: 480px;
+    min-height: 500px;
     justify-content: center;
 transition: all 0.4s ease-in-out;
 
@@ -23,11 +23,11 @@ scale: 1.05;
 
 
 .cardImage{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 175px;
     object-fit: cover;
     padding: 0.3rem 0;
-    
+    border-radius: 1rem;
 
 }
 .cardContent{
@@ -50,7 +50,7 @@ scale: 1.05;
 .cardDescription{
     font-size: 0.9rem;
     padding: 0.3rem 0;
-    min-height: 3rem;
+    min-height: 4rem;
     text-align: center;
  
 }
