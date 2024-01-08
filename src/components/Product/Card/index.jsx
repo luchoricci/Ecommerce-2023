@@ -3,17 +3,16 @@ import "./styles.css";
 const Card = ({
   id,
   title,
-  image,
+  images,
   category,
   description,
   price,
   stock,
-  onAddToCart,
   onShowDetails,
 }) => {
   return (
     <div className="card" onClick={() => onShowDetails(id)}>
-     <img className="cardImage" src={image} alt={title} />
+     <img className="cardImage" src={images[0]} alt={title} />
       <div className="cardContent">
         <h3 className="cardTitle">{title}</h3>
         <p className="cardCategory">{category}</p>
@@ -22,7 +21,7 @@ const Card = ({
         <p className="cardStock">{stock} Left</p>
       </div>
       <div className="cardActions">
-        <button onClick={() => onAddToCart(id)}> AtC</button>
+        <button > AtC</button>
       </div>
     </div>
   );
