@@ -1,17 +1,56 @@
+import { useRef, memo } from "react";
 import "./styles.css";
 
-const Slider = ({ children }) => {
+const Slider = memo(({ children }) => {
+  const sliderContentRef = useRef(null);
+  const startX = useRef(null);
+  const scrollLeft = useRef(null);
+
+  const onHandleClickNext = () => {
+    sliderContentRef.current.scrollLeft +=
+      sliderContentRef.current.children[0].offsetWidth;
+  };
+
+  const onHandleClickPrevius = () => {
+    sliderContentRef.current.scrollLeft -=
+      sliderContentRef.current.children[0].offsetWidth;
+  };
+
+  const onHandleTouchStart = (event) => {
+    startX.current =
+      event.touches[0].clientX - sliderContentRef.current.offsetLeft;
+    scrollLeft.current = sliderContentRef.current.scrollLeft;
+  };
+  const onHandleTouchEnd = (event) => {
+    event.preventDefault();
+  };
+  const onHandleTouchMove = (event) => {
+    event.preventDefault();
+    const x = event.touches[0].clientX - sliderContentRef.current.offsetLeft;
+    const walk = (x - startX.current) * 2;
+    sliderContentRef.current.scrollLeft = scrollLeft.current - walk;
+  };
+
   return (
     <div className="slider">
-      <button className="previousButton">
+      <button onClick={onHandleClickPrevius} className="previousButton">
         <span>&lt;</span>
       </button>
-      <button className="nextButton">
+      <button onClick={onHandleClickNext} className="nextButton">
         <span>&gt;</span>
       </button>
-      <div className="sliderContainer">{children}</div>
+      <div></div>
+      <div
+        ref={sliderContentRef}
+        className="sliderContainer"
+        onTouchStart={onHandleTouchStart}
+        onTouchEnd={onHandleTouchEnd}
+        onTouchMove={onHandleTouchMove}
+      >
+        {children}
+      </div>
     </div>
   );
-};
+});
 
 export default Slider;

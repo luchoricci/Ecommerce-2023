@@ -16,6 +16,7 @@ function ProductDetail() {
   );
   const history = window.history;
   
+  console.log({data})
 
   return (
     <>

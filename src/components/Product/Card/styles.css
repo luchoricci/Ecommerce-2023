@@ -77,3 +77,8 @@ scale: 1.05;
     border-radius: 0.3rem;
 
 }
+.cardButtonContent {
+    border: none;
+    background-color: rgb(4, 4, 161);
+
+}

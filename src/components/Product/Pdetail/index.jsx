@@ -3,7 +3,7 @@ import "./styles.css";
 const PDetail = ({
   id,
   title,
-  image,
+  images,
   category,
   description,
   price,
@@ -13,7 +13,7 @@ const PDetail = ({
   return (
     <div className="detailContainer">
       <div className="detailCard">
-        <img className="detailCardImage" src={image} alt={title} />
+        <img className="detailCardImage" src={images} alt={title} />
         <div className="detailCardContent">
           <h3 className="detailCardTitle">{title}</h3>
           <p className="detailCardCategory">{category}</p>
