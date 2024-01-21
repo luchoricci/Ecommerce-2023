@@ -1,5 +1,6 @@
 import "./styles.css";
 
+
 const Card = ({
   id,
   title,
@@ -10,11 +11,15 @@ const Card = ({
   stock,
   onShowDetails,
   onAddToCart,
+
 }) => {
+
   return (
     <div className="card" >
       <button className="cardButtonContent" type="button" onClick={() => onShowDetails(id)}>
-        {/* <img className="cardImage" src={images[0]} alt={title} /> */}
+      
+        {/* <img className="cardImage" src={images} alt={title} /> */}
+     
         <div className="cardContent">
           <h3 className="cardTitle">{title}</h3>
           <p className="cardCategory">{category}</p>

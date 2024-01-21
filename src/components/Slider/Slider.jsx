@@ -39,7 +39,7 @@ const Slider = memo(({ children }) => {
       <button onClick={onHandleClickNext} className="nextButton">
         <span>&gt;</span>
       </button>
-      <div></div>
+    
       <div
         ref={sliderContentRef}
         className="sliderContainer"

@@ -13,7 +13,7 @@ const PDetail = ({
   return (
     <div className="detailContainer">
       <div className="detailCard">
-        <img className="detailCardImage" src={images} alt={title} />
+        {/* <img className="detailCardImage" src={images} alt={title} /> */}
         <div className="detailCardContent">
           <h3 className="detailCardTitle">{title}</h3>
           <p className="detailCardCategory">{category}</p>

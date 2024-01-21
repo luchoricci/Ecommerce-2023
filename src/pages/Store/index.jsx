@@ -1,6 +1,6 @@
 import "./styles.css";
 
-import { useState } from "react";
+import { useEffect, useState, useContext } from "react";
 
 import Input from "../../components/input";
 import Card from "../../components/Product/Card";
@@ -10,6 +10,8 @@ import { API_URLS } from "../../constants/APIURL";
 import Loader from "../../components/Loader/";
 import { useNavigate } from "react-router-dom";
 import Slider from "../../components/Slider/Slider";
+import { CartContext } from "../../context/cart-Context";
+
 
 function Store() {
   const navigate = useNavigate();
@@ -19,7 +21,10 @@ function Store() {
   const [isFiltered, setIsFiltered] = useState(false);
   // const [productDetail, setProductDetail] = useState(null);
   const [productsFiltered, setProductsFiltered] = useState([]);
-  const [cart, setCart] = useState([]);
+
+
+  const{setProducts, products:productsContext, onAddToCart, cart} = useContext(CartContext);
+
 
   const {
     data: products,
@@ -54,6 +59,12 @@ function Store() {
   //     setActive(false);
   //   };
 
+ useEffect(() => {
+  if(products?.length > 0){
+    setProducts(products);
+  }
+ },[products, setProducts])
+ 
   const onShowDetails = (id) => {
     navigate(`/products/${id}`);
   };
@@ -67,34 +78,11 @@ function Store() {
   };
 
 
-const onAddToCart =(id) => {
-  const item = products.find((product) => product.id === id);
-  if(cart?.find((product) => product.id ===id)?.quantity === Number(item.stock)) return;
-  if(cart?.length === 0){ 
-    setCart([{...item, quantity: 1}])
-  }
-  if(cart?.length> 0 && !cart?.find((product) => product.id === id)){
-    setCart([...cart, {...item, quantity:1}])
-  }
-  if(cart?.length> 0 && cart?.find((product) =>product.id === id )) {
-    setCart((currentCart) => {
-      return currentCart.map((product) => {
-        if(product.id === id) {
-          return{...product, quantity: product.quantity + 1}
-        } else {
-          return product
-        }
-      })
-
-    });
-  }
-}
-console.log({cart});
-
 
   return (
     <div>
       <div className="">
+
         <div className="categoriesContainer">
           {loadingCategories && <Loader />}
           {errorCategories && <h2>{errorCategories}</h2>}

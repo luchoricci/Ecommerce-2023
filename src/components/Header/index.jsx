@@ -1,20 +1,30 @@
 import React from "react";
 import "./styles.css";
+import { CartContext } from "../../context/cart-Context";
+import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Header = ({ logo }) => {
+  const { cart } = useContext(CartContext);
+  const navigate = useNavigate();
+
+  const goToCart = () => {
+    navigate('/cart');
+  }
+
   return (
     <header className="headerContainer">
       <a href="/" className="logo">
         {logo}
       </a>
       <input type="checkbox" className="side-menu" id="side-menu" />
-            <label className="hamb" htmlFor ="side-menu">
-                <span className="hamb-line"></span>
-            </label>
+      <label className="hamb" htmlFor="side-menu">
+        <span className="hamb-line"></span>
+      </label>
       <nav className="nav">
         <ul className="menu">
           <li>
-            <button >Home</button>
+            <button>Home</button>
           </li>
           <li>
             <button>Store</button>
@@ -28,8 +38,15 @@ const Header = ({ logo }) => {
           <li>
             <button>Contact Us</button>
           </li>
-          <li>
-            <button>Cart</button>
+          <li onClick={goToCart} className="menuCartContainer">
+            <img
+              className="menuCartImage"
+              src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png"
+              alt="Cart"
+            />
+            <div className="menuCartCountContainer">
+              <span className="menuCartCount">{cart.length}</span>
+            </div>
           </li>
         </ul>
       </nav>
