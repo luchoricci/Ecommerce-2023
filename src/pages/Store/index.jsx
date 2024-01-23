@@ -19,8 +19,8 @@ function Store() {
   const [search, setSearch] = useState("");
   const [active, setActive] = useState(false);
   const [isFiltered, setIsFiltered] = useState(false);
-  // const [productDetail, setProductDetail] = useState(null);
   const [productsFiltered, setProductsFiltered] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState('All');
 
 
   const{setProducts, products:productsContext, onAddToCart, cart} = useContext(CartContext);
@@ -38,26 +38,30 @@ function Store() {
     error: errorCategories,
   } = useFetch(API_URLS.CATEGORY.URL, API_URLS.CATEGORY.config);
 
-  //   const filterBySearch = (query) => {
-  //     let updateProductList = [...products];
+    const filterBySearch = (query) => {
+      if(selectedCategory !== "All" && query.length === 0) {
+        onFilter(selectedCategory);
+        return;
+      }
+      let updateProductList = query.length === 0? [...products] : [...productsFiltered];
 
-  //     updateProductList = updateProductList.filter((item) => {
-  //       return item.title.toLowerCase().indexOf(query.toLowerCase()) !== -1;
-  //     });
-  //     setProductsFiltered(updateProductList);
-  //   };
-  //   const onChange = (event) => {
-  //     const value = event.target.value;
-  //     setSearch(value);
-  //     filterBySearch(value);
-  //   };
+      updateProductList = updateProductList.filter((item) => {
+        return item.title.toLowerCase().indexOf(query.toLowerCase()) !== -1;
+      });
+      setProductsFiltered(updateProductList);
+    };
+    const onChange = (event) => {
+      const value = event.target.value;
+      setSearch(value);
+      filterBySearch(value);
+    };
 
-  //  const onFocus = () => {
-  //     setActive(true);
-  //   };
-  //   const onBlur = () => {
-  //     setActive(false);
-  //   };
+   const onFocus = () => {
+      setActive(true);
+    };
+    const onBlur = () => {
+      setActive(false);
+    };
 
  useEffect(() => {
   if(products?.length > 0){
@@ -75,6 +79,7 @@ function Store() {
     );
     setProductsFiltered(productsByCategory);
     setIsFiltered(true);
+    setSelectedCategory(name);
   };
 
 
@@ -107,27 +112,27 @@ function Store() {
           </Slider>
         </div>
 
-        {/* <div className="inputContentContainer">
-          <Input
-            placeHolder="Search"
-            type="text"
-            id="task"
-            required={true}
-            name="Task Name"
-            onChange={onChange}
-            onFocus={onFocus}
-            onBlur={onBlur}
-            active={active}
-          />
-        </div> */}
+        <div className="inputContentContainer">
+          {isFiltered && (
+   <Input
+   placeHolder="Search"
+   type="text"
+   id="task"
+   required={true}
+   name="Task Name"
+   onChange={onChange}
+   onFocus={onFocus}
+   onBlur={onBlur}
+   active={active}
+ />
+          )}
+       
+        </div>
         <h2 className="headerTitleCard">Products</h2>
         <div className="cardContainer">
           {loadingProducts && <Loader />}
           {errorProducts && <h1>Something went wrong</h1>}
 
-          {search.length > 0 && productsFiltered.length === 0 && (
-            <h1>Product not found.</h1>
-          )}
           {isFiltered
             ? productsFiltered.map((product) => (
                 <Card

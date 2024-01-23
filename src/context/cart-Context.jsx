@@ -74,7 +74,11 @@ export const CartProvider = ({ children }) => {
   const getItemQuantity = (id) => {
     return cart.find((product) => product.id ===id)?.quantity || 0;
   }
-
+  
+  
+  const getTotalItemQuantity = () => {
+    return cart.reduce((acc, product) => acc + product.quantity, 0)
+}
   return (
     <CartContext.Provider
       value={{
@@ -89,6 +93,7 @@ export const CartProvider = ({ children }) => {
         products,
         setProducts,
         getItemQuantity,
+        getTotalItemQuantity
       }}
     >
       {children}

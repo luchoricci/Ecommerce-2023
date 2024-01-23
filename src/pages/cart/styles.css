@@ -1,76 +1,123 @@
-
-
-.cartContent{
+.cartContainer {
+  margin: 1rem 1.6rem;
+  gap: 1rem;
+  height: 100vh;
  
-    display: flex;
-    flex-direction: row;
-    max-width: 600px;
-    background-color: bisque;
-  margin: 2rem 0;
-  padding: 1rem;
-  }
+}
+
+.cartItem {
+  display: flex;
+
+
+}
+
+.cartItem {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFEB;
+  border: 1px solid #efefdc;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.imageCartItem{
+  width: 250px;
+  height: 250px;
   
-  .cartItem{ display: flex;
-    flex-direction: column;
-    flex: 2;
-  padding: 1 rem;
+  
+}
+
+.cartContentContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  padding: 1rem;
+  color: #000000;
   justify-content: space-between;
-  min-height: 180px;
-  margin-left: 1rem;
-  
-  
-  
-  }
-  .cartItemTitle{
-    font-size: 1.3rem;
-    font-weight: 700;
-    
-  }
-  
-  
-  .cartItemQuantity{
-    font-size: 0.9rem;
-  
-  
-  }
-  .cartItemPrice{
-    font-size: 1.3rem;
-    font-weight: 700;
-    
-  }
-  .cartItemStock{
-    font-size: 0.9rem;
-  }
-  .cartActions{
-    display: flex;
-    flex-direction: row;
-    max-width: 280px;
-    justify-content: space-between;
-  
-  
-  }
-  .cartButtonAdd{    border: none;
-    background-color: aqua;
-    color: black;
-  padding: 1rem;
-    border-radius: 1rem;
-  
-  
-  }
-  .cartButtonDecrease{    border: none;
-    background-color: aqua;
-    color: black;
-    padding: 1rem;
-    border-radius: 1rem;
-  
-  
-  }
-  .cartButtonRemove{    border: none;
-    background-color: aqua;
-    color: black;
-    
-    padding: 1rem;
-    border-radius: 1rem;
-  
-  
-  }
+}
+.cartItemTitle{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.cartItemQuantity {
+  font-size: 0.9rem;
+}
+.cartItemPrice {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.cartItemStock {
+  font-size: 0.9rem;
+}
+.cartActions {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  max-width: 280px;
+  justify-content: space-between;
+}
+.cartButtonAdd {
+    border: none;
+    background-color: #5156A4;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 0.2rem;
+    transition: all 0.3s ease-in-out;
+}
+.cartButtonAdd:hover {
+  background-color: #CBBAED;
+  color: #000000;
+}
+.cartButtonDecrease {
+  border: none;
+    background-color: #FFFFEB;
+    color: #000000;
+    padding: 1rem 2rem;
+    border-radius: 0.2rem;
+    border: 1px solid #000000;
+    transition: all 0.3s ease-in-out;
+}
+.cartButtonRemove {
+    border: none;
+    background-color: #FFFFEB;
+    color: #000000;
+    padding: 1rem 2rem;
+    border-radius: 0.2rem;
+    border: 1px solid #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.cartButtonDecrease:hover,
+.cartButtonRemove:hover
+{
+  background-color: #5156A4;
+  color: #ffffff;
+}
+
+.cartTotal{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+
+.cartButtonCheckout{
+
+  border: none;
+  background-color: #5156A4;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 0.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.cartButtonCheckout:hover {
+  background-color: #CBBAED;
+  color: #000000;
+}
+
+.cartDetailActions{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  max-width: 500px;
+}
