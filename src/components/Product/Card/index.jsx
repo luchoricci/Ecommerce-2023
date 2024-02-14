@@ -1,7 +1,8 @@
+import { memo } from "react";
 import "./styles.css";
 
 
-const Card = ({
+const Card = memo(({
   id,
   title,
   images,
@@ -18,7 +19,7 @@ const Card = ({
     <div className="card" >
       <button className="cardButtonContent" type="button" onClick={() => onShowDetails(id)}>
       
-        {/* <img className="cardImage" src={images} alt={title} /> */}
+        <img className="cardImage" src={images} alt={title} />
      
         <div className="cardContent">
           <h3 className="cardTitle">{title}</h3>
@@ -33,6 +34,6 @@ const Card = ({
       </div>
     </div>
   );
-};
+});
 
 export default Card;

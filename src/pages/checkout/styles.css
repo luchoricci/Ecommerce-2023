@@ -1,0 +1,29 @@
+.checkOutContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+.checkOutTitle{
+
+}
+.checkoutForm{
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+}
+.checkOutFormContainer{
+    padding: 2rem 0;
+
+}
+.checkOutFormInputGroup{
+    padding: 1rem 0;
+
+}
+
+.checkOutFormInput {
+    padding: 1rem;
+    
+}
+
