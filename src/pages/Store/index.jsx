@@ -112,7 +112,7 @@ function Store() {
         <div className="inputContentContainer">
           {isFiltered ? (
             <Input
-              placeHolder="Search"
+              placeholder="Search"
               type="text"
               id="task"
               required={true}

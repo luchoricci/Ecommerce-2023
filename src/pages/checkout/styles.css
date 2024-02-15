@@ -6,6 +6,7 @@
 }
 
 .checkOutTitle{
+    color: black;
 
 }
 .checkoutForm{
@@ -27,3 +28,26 @@
     
 }
 
+
+.cartButtonCheckout{
+
+    border: none;
+    background-color: #5156A4;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 0.2rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cartButtonCheckout:hover {
+    background-color: #CBBAED;
+    color: #000000;
+  }
+  
+
+
+  .cartButtonCheckout:disabled {
+    background-color: #79797a;
+    color: white;
+    cursor: not-allowed;
+  }
